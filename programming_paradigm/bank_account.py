@@ -3,7 +3,7 @@ class BankAccount:
         self.account_balance = float(initial_balance)
 
     def display_balance(self):
-        return f"Current Balance: ${self.account_balance:.2f}"
+        print(f"Current Balance: ${self.account_balance:.2f}")
 
     def deposit(self, amount):
         self.account_balance += amount
